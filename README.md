@@ -1,4 +1,4 @@
-maven-play2-routes-plugin
+play2-routes-maven-plugin
 =========================
 
 Maven plugin for running play! framework 2.x compilation on routes files.
