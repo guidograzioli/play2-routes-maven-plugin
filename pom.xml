@@ -4,7 +4,7 @@
 
   <groupId>com.undebugged.maven</groupId>
   <artifactId>play2-routes-maven-plugin</artifactId>
-  <version>0.1.1-SNAPSHOT</version>
+  <version>0.1.2-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
 
   <name>Play! routes compiler plugin</name>
@@ -53,12 +53,12 @@
     <repository>
       <id>releases</id>
       <name>Releases</name>
-      <url>http://ci.endovl.org.au/nexus/content/repositories/thirdparty/</url>
+      <url>dav:https://repository-guidograzioli.forge.cloudbees.com/release/</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
       <name>Snapshots</name>
-      <url>http://ci.endovl.org.au/nexus/content/repositories/thirdpartysnapshots/</url>
+      <url>dav:https://repository-guidograzioli.forge.cloudbees.com/snapshot/</url>
     </snapshotRepository>
  </distributionManagement>
 
